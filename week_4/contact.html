@@ -25,7 +25,33 @@
    <section>
        <h3>We love to hear from you!</h3>
        <form action="thanks.html" method="get" >
-           
+           <div>
+               <label for="fullname">Your Name</label>
+               <input type="text" id="fullname" name="fullname" placeholder="coffee lover">
+            </div>
+            <div>
+                <label for="youremail">Email</label>
+                <!-- required is a boolean attribute, it only needs to be set by its name -->
+                <input type="email" id="youremail" name="youremail" required placeholder="RoastydBeans@email.com">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="place your questions and beans of knowledge here" rows="30" cols="60"></textarea>
+            </div>
+            <div>
+                <label for="tickets">How many tickets? (sold in pairs)</label>
+                <input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
+            </div>
+            <div>
+                <label for="row">Select your seating</label>
+                <select name="row" id="row">
+                    <option value="front">Front row</option>
+                    <option value="middle" selected>Middle row</option>
+                    <option value="back">Back row</option>
+                </select>
+            </div>
+
+           <button type="submit">submit the beans</button>
        </form>
    </section>
     </main>
