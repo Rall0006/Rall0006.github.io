@@ -74,6 +74,6 @@ main p{
   
 } 
 
-h3:nth-child(odd) {
-    background-color: brown;
+h3+ul:nth-child(odd) {
+    background-color: rgb(200, 186, 233);
 }
