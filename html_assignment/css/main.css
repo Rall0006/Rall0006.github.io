@@ -1,12 +1,12 @@
-body{
+body {
     font-family: Ariel, Helvetica, sans-serif;
     font-size: 18px;
 }
-main{
+main {
     color: rgb(76, 44, 151);
     background-color: white;
 }
-header, footer{
+header, footer {
     color: rgb(122, 94, 185);
     background-color: rgb(200, 186, 233);"
 }
@@ -38,7 +38,7 @@ nav :hover {
     color: rgb(122, 94, 185);
 }
 
-main p{
+main p {
     text-align: center;
 }
 
