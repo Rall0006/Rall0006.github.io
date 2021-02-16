@@ -54,7 +54,6 @@ main p{
     border: 3px dashed rgb(201, 133, 167);
     font-size: 18px;
     list-style-type: square;
-  
 } 
 
 h3+ul:nth-child(odd) {
