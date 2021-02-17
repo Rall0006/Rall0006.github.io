@@ -30,7 +30,7 @@ nav ul a {
     list-style-type: none;
     background-color:rgb(255, 230, 242) ;
 }
-nav :hover {
+nav ul a:hover {
     background-color: rgb(80, 255, 240);
 }
 
@@ -49,13 +49,15 @@ main p {
   #my_image {
       box-shadow:  0px 0px 2px 1px #000000;
   }
+  
+  
+  .this :nth-child(odd) {
+      background-color: rgb(228, 220, 248);
+  }
+
 
   h3+ul {
     border: 3px dashed rgb(201, 133, 167);
     font-size: 18px;
     list-style-type: square;
 } 
-
-h3+ul:nth-child(odd) {
-    background-color: rgb(200, 186, 233);
-}
