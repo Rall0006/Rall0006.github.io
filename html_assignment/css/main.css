@@ -22,7 +22,7 @@ h4 {
     text-align: center;
 }
 
-nav ul a {
+nav li a {
     color: rgb(201, 133, 167);
     text-decoration: none;
     border: 2px dotted rgb(200, 186, 233);
@@ -30,7 +30,8 @@ nav ul a {
     list-style-type: none;
     background-color:rgb(255, 230, 242) ;
 }
-nav ul a:hover {
+
+nav li a:hover {
     background-color: rgb(80, 255, 240);
 }
 
