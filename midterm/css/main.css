@@ -1,37 +1,100 @@
 body {
+  background: rgb(35, 110, 107);
+}
+
+.content {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  .site_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+body {
     font-family: Ariel, Helvetica, sans-serif;
     font-size: 18px;
 }
 main {
-    color: rgb(150, 207, 204);
-    background-color: white;
+    color: rgb(35, 110, 107);
+    background-color: rgb(203, 228, 222);
 }
 header, footer {
     color: rgb(122, 94, 185);
     background-color: rgb(200, 186, 233);
+    text-align: right;
 }
 
 /* Selecting multiple elements to apply same styles */
-
-nav li a {
-    color: rgb(150, 207, 204);
-    text-decoration: none;
-    border: 2px dotted rgb(200, 186, 233);
-    list-style: none;
+nav{
+    background-color: white;
     list-style-type: none;
-    background-color:rgb(35, 110, 107) ;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-nav li a:hover {
-    background-color: rgb(200, 186, 233);
+nav li {
+display: inline-block;
+padding: 15px 120px;
+border-right: 1px solid rgb(35, 110, 107);
+font-size: 20px;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+}
+
+nav li:last-child {
+    border-right: none;
 }
 
 .site_title {
-    color: rgb(122, 94, 185);
+    color: rgb(200, 186, 233);
+    -webkit-text-stroke: 1.5px black;
 }
 
   h3+ul {
-    border: 3px dashed rgb(150, 207, 204);
-    font-size: 18px;
+    font-size: 16px;
     list-style-type: square;
 } 
+
+.text_wrap{
+    float: left;
+    margin: 10px;
+}
+
+.contact_border{
+    border: solid;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+#fullname{
+border: none;
+background-color: white;
+}
+
+#youremail{
+    border: none;
+    background-color: white;
+    }
+    
+
+button{
+background-color: white;
+border: solid;
+padding: 6px 8px;
+margin: 5px 5px;
+}
