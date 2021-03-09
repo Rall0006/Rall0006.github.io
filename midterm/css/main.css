@@ -1,41 +1,59 @@
-body {
-  background: rgb(35, 110, 107);
+/* base design elements */
+
+main {
+    color: rgb(35, 110, 107);
+    background-color: rgb(203, 228, 222);
+    padding: 2px 10px;
 }
-
-.content {
-    max-width: 1024px;
-    margin: auto;
-  }
-
-  .container {
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 100%;
-  }
-  
-  .site_title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
 body {
     font-family: Ariel, Helvetica, sans-serif;
     font-size: 18px;
+    background: rgb(35, 110, 107);
 }
-main {
-    color: rgb(35, 110, 107);
-    background-color: rgb(203, 228, 222);
+
+.text_wrap{
+    float: left;
+    margin: 10px;
 }
+
 header, footer {
     color: rgb(122, 94, 185);
     background-color: rgb(200, 186, 233);
     text-align: right;
 }
 
-/* Selecting multiple elements to apply same styles */
+
+/* used to format and center the page content */
+.content {
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgb(203, 228, 222);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+/* positioning h1 over the image */
+
+.site_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    font-size: 50px;
+    color: rgb(200, 186, 233);
+    -webkit-text-stroke: 1.5px black;
+}
+
+
+/* nav and buttons*/
+
 nav{
     background-color: white;
     list-style-type: none;
@@ -45,10 +63,10 @@ nav{
 }
 
 nav li {
-display: inline-block;
-padding: 15px 120px;
-border-right: 1px solid rgb(35, 110, 107);
-font-size: 20px;
+    display: inline-block;
+    padding: 15px 120px;
+    border-right: 1px solid rgb(35, 110, 107);
+    font-size: 20px;
 }
 
 nav li a{
@@ -60,41 +78,36 @@ nav li:last-child {
     border-right: none;
 }
 
-.site_title {
-    color: rgb(200, 186, 233);
-    -webkit-text-stroke: 1.5px black;
+button{
+background-color: rgb(255, 255, 255);
+border: solid rgb(35, 110, 107);
+padding: 6px 8px;
+margin: 5px 5px;
 }
 
-  h3+ul {
-    font-size: 16px;
-    list-style-type: square;
+
+/* fun facts */
+
+h3+ul {
+  font-size: 16px;
+  list-style-type: square;
 } 
 
-.text_wrap{
-    float: left;
-    margin: 10px;
+
+/* contact stuff */
+
+#fullname{
+    border: none;
+    background-color: white;
+}
+
+#youremail{
+    border: none;
+    background-color: white;
 }
 
 .contact_border{
     border: solid;
     margin: 5px 5px;
     padding: 5px 5px;
-}
-
-#fullname{
-border: none;
-background-color: white;
-}
-
-#youremail{
-    border: none;
-    background-color: white;
-    }
-    
-
-button{
-background-color: white;
-border: solid;
-padding: 6px 8px;
-margin: 5px 5px;
 }
