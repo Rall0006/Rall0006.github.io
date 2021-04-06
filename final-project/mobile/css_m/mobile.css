@@ -4,6 +4,25 @@ header{
     background-color: rgb(34, 34, 34);
 }
 
+h1 {
+    font-size: 600%;
+}
+h2 {
+    font-size: 400%;
+}
+h3 {
+    font-size: 200%;
+    font-weight: bold;
+}
+h4 {
+    font-size: 100%;
+}
+
+p {
+line-height: 180%;
+}
+
+
 .logo{
     background-color: rgb(199, 139, 7);
     align-content: center;
@@ -58,8 +77,8 @@ button {
 .picture_button {
     width: 35%;
     align-content: left;
-    padding: -8px -8px -8px -8px;
     border-style: none;
+    background-color: transparent;
 }
 
 .yellow {
@@ -67,15 +86,53 @@ button {
 
 }
 
-
-form{
-    size: 100%;
+table, td, th {
+    border: 1px solid black;
+    height: 50px;
 }
+
+th {
+    background-color: rgb(255, 230, 172);
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+hr.orangeline {
+    border: 1px solid rgb(199, 139, 7);
+}
+
+.ori_boats{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -155%);
+    color: white;
+}
+
+
+div.welcomebg {
+    background: url(../../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+
+div.transbox {
+    background: rgba(34, 34, 34, 0.6);
+    color: #ffffff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 
 /* search bar */
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 139, 7);
   }
   
   .topnav a {
@@ -93,10 +150,6 @@ form{
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
   
   .topnav .search-container {
     float: right;
