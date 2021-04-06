@@ -248,12 +248,7 @@ div.transbox {
     width: 100%;
   }
 
-  /* misc alignment stuff */
-
-  .text_wrap {
-    float: left;
-    margin: 10px;
-  }
+  /* attempted flexbox */
 
   .twoguys {
       display: flex;
