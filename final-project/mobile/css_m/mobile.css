@@ -229,3 +229,9 @@ div.transbox {
       border: 1px solid #ccc;  
     }
   }
+  
+  /* map */
+  #map {
+    height: 400px;
+    width: 100%;
+  }
