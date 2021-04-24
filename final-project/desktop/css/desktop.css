@@ -1,6 +1,6 @@
 /* main */
 header{
-    color:  rgb(199, 139, 7);
+    color:  rgb(199, 140, 6);
     background-color: rgb(34, 34, 34);
 }
 
@@ -26,7 +26,7 @@ line-height: 180%;
 
 
 .logo{
-    background-color: rgb(199, 139, 7);
+    background-color: rgb(199, 140, 6);
     align-content: center;
     border:rgb(34, 34, 34);
     border-style: solid;
@@ -43,7 +43,7 @@ main{
 }
 
 footer{
-    color:  rgb(199, 139, 7);
+    color:  rgb(199, 140, 6);
     background-color: rgb(34, 34, 34);
     font-size: 80%;
 }
@@ -64,19 +64,19 @@ nav li {
 
 nav li a {
     display: block;
-    color: rgb(199, 139, 7);
+    color: rgb(199, 140, 6);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover:not(.active) {
-    background-color: rgb(199, 139, 7);
+    background-color: rgb(199, 140, 6);
     color: rgb(34, 34, 34);
   }
   
   .active {
-    background-color: rgb(199, 139, 7);
+    background-color: rgb(199, 140, 6);
     color: rgb(34, 34, 34);
   }
 
@@ -84,7 +84,7 @@ nav li a:hover:not(.active) {
 
 button {
     background-color: rgb(34, 34, 34);
-    color: rgb(199, 139, 7);
+    color: rgb(199, 140, 6);
 }
 
 .picture_button {
@@ -108,7 +108,7 @@ button {
 
 
 table, td, th {
-    border: 1px solid black;
+    border: 1px solid rgb(34, 34, 34);
     height: 50px;
 }
 
@@ -125,7 +125,7 @@ hr.orangeline {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 2px solid rgb(199, 139, 7);
+    border-top: 2px solid rgb(199, 140, 6);
     margin: 0;
     padding: 0;
 }
@@ -136,12 +136,13 @@ div.oriboatsbg {
     background: url(../../images/vision.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    align-content: center;
 }
 
 
 div.transpbg {
     background: rgba(17, 37, 63, 0.1);
-    color: #ffffff;
+    color: white;
     padding: 2%;
   }
 
@@ -156,7 +157,7 @@ div.welcomebg {
 
 div.transbox {
     background: rgba(34, 34, 34, 0.6);
-    color: #ffffff;
+    color: white;
     padding: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -176,7 +177,7 @@ div.transbox {
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(34, 34, 34);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -184,12 +185,12 @@ div.transbox {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: white;
+    color: rgb(34, 34, 34);
   }
   
   .topnav a.active {
-    background-color: rgb(199, 139, 7);
+    background-color: rgb(199, 140, 6);
     color: rgb(34, 34, 34);
   }
   
@@ -212,7 +213,7 @@ div.transbox {
     margin-top: 8px;
     margin-right: 16px;
     background: rgb(34, 34, 34);
-    border: rgb(199, 139, 7);
+    border: rgb(199, 140, 6);
     border-width: 1px;
     border-style: solid;
     border-left: none;
@@ -222,7 +223,7 @@ div.transbox {
   }
   
   .topnav .search-container button:hover {
-    background: #ccc;
+    background: white;
   }
   
   @media screen and (max-width: 600px) {
