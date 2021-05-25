@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300&display=swap');
 
-/* Navigation bar design */
+
+
+/* Desktop Navigation bar design */
 #nav#nav {
     background-color: rgb(38, 105, 105);
     font-family: Manrope;
@@ -19,7 +21,7 @@
     color: rgb(255, 226, 153);
 }
 
-/* home and welcome section design */
+/* Desktop home and welcome section design */
 #home#home {
     background-color: rgb(255, 226, 153);
     font-family: Palanquin;
@@ -30,7 +32,7 @@
     font-family: Codystar;
 }
 
-/* About section design */
+/* Desktop About section design */
 #about#about {
     background-color: rgb(38, 105, 105);
     font-family: Palanquin;
@@ -42,7 +44,7 @@
     font-family: Codystar;
 }
 
-/* Contact section design */
+/* Desktop Contact section design */
 #contact#contact {
     background-color: rgb(255, 226, 153);
     font-family: Palanquin;
@@ -55,7 +57,7 @@
     font-family: Codystar;
 }
 
-/* contact form design */
+/* Desktop contact form design */
 .contact-form.contact-form {
     background-color: rgb(95, 67, 14);
     font-family: Manrope;
@@ -64,7 +66,7 @@
     border: 3px solid cadetblue;
 }
 
-/* footer design */
+/* Desktop footer design */
 footer {
     background-color: rgb(38, 105, 105);
     color: lavender;
@@ -81,10 +83,78 @@ footer {
 
 
 
-/* tablet screen resolution */
+/* Tablet screen resolution */
 @media screen and (max-width: 1007px) {
-   
+   /* Tablet Navigation bar design */
+#nav#nav {
+    background-color: rgb(38, 105, 105);
+    font-family: Manrope;
+    color: lavender;
+}
 
+#nav#nav a.nav-link {
+    color: lavender;
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+#nav#nav a.nav-link:hover {
+    color: rgb(255, 226, 153);
+}
+
+/* Tablet home and welcome section design */
+#home#home {
+    background-color: rgb(255, 226, 153);
+    font-family: Palanquin;
+    font-size: 10px,
+}
+
+#home h1{
+    font-family: Codystar;
+}
+
+/* Tablet About section design */
+#about#about {
+    background-color: rgb(38, 105, 105);
+    font-family: Palanquin;
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+#about h2{
+    font-family: Codystar;
+}
+
+/* Tablet Contact section design */
+#contact#contact {
+    background-color: rgb(255, 226, 153);
+    font-family: Palanquin;
+    font-size: 23px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+#contact h2{
+    font-family: Codystar;
+}
+
+/* Tablet contact form design */
+.contact-form.contact-form {
+    background-color: rgb(95, 67, 14);
+    font-family: Manrope;
+    color: rgb(248, 237, 207);
+    padding-left: 5px;
+    border: 3px solid cadetblue;
+}
+
+/* Tablet footer design */
+footer {
+    background-color: rgb(38, 105, 105);
+    color: lavender;
+    font-family: Manrope;
+    border: 3px solid cadetblue;
+}
   }
   
 
@@ -97,8 +167,76 @@ footer {
 
 
 
-/* cell phone screen resolution */
+/* Cellphone screen resolution */
 @media screen and (max-width: 640px) {
+    /* Cellphone Navigation bar design */
+#nav#nav {
+    background-color: rgb(38, 105, 105);
+    font-family: Manrope;
+    color: lavender;
+}
 
+#nav#nav a.nav-link {
+    color: lavender;
+    float: none;
+    display: block;
+    text-align: left;
+}
 
+#nav#nav a.nav-link:hover {
+    color: rgb(255, 226, 153);
+}
+
+/* Cellphone home and welcome section design */
+#home#home {
+    background-color: rgb(255, 226, 153);
+    font-family: Palanquin;
+    font-size: 10px,
+}
+
+#home h1{
+    font-family: Codystar;
+}
+
+/* Cellpone About section design */
+#about#about {
+    background-color: rgb(38, 105, 105);
+    font-family: Palanquin;
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+#about h2{
+    font-family: Codystar;
+}
+
+/* Cellphone Contact section design */
+#contact#contact {
+    background-color: rgb(255, 226, 153);
+    font-family: Palanquin;
+    font-size: 23px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+#contact h2{
+    font-family: Codystar;
+}
+
+/* Cellphone contact form design */
+.contact-form.contact-form {
+    background-color: rgb(95, 67, 14);
+    font-family: Manrope;
+    color: rgb(248, 237, 207);
+    padding-left: 5px;
+    border: 3px solid cadetblue;
+}
+
+/* Cellphone footer design */
+footer {
+    background-color: rgb(38, 105, 105);
+    color: lavender;
+    font-family: Manrope;
+    border: 3px solid cadetblue;
+}
   }
