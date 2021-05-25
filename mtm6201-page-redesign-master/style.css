@@ -11,8 +11,12 @@
     color: lavender;
 }
 
-a:hover #nav#nav{
+#nav#nav.nav-link a.hover:not(active) {
     color: lavender;
+}
+
+#nav.nav-link a:active {
+    color: rgb(255, 226, 153);
 }
 
 /* home and welcome section design */
