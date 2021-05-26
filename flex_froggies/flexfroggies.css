@@ -1,0 +1,200 @@
+/* full flexbox code for personal reffernce */
+
+/* original project location: https://flexboxfroggy.com/ */
+
+/* flex frog answer 1 */
+#pond {
+    display: flex;
+  justify-content: flex-end;
+  }
+
+
+/* flex frog answer 2 */
+ #pond {
+    display: flex;
+  justify-content: center;
+  }
+
+
+/* flex frog answer 3 */
+#pond {
+    display: flex;
+  justify-content: space-around;
+  }
+
+
+/* flex frog answer 4 */
+#pond {
+  display: flex;
+justify-content: space-between;
+}
+
+
+/* flex frog answer 5 */
+#pond {
+    display: flex;
+  align-items: flex-end;
+  }
+
+
+/* flex frog answer 6 */
+#pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+/* flex frog answer 7 */
+#pond {
+    display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  }
+
+
+/* flex frog answer 8 */
+#pond {
+    display: flex;
+  flex-direction: row-reverse;
+  }
+
+
+/* flex frog answer 9 */
+#pond {
+    display: flex;
+  flex-direction: column;
+  } 
+ 
+
+/* flex frog answer 10 */
+#pond {
+    display: flex;
+  flex-direction: row-reverse;
+  Justify-content: flex-end;
+  }
+
+
+/* flex frog answer 11 */
+#pond {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+
+/* flex frog answer 12 */
+#pond {
+    display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  }
+
+
+/* flex frog answer 13 */
+#pond {
+    display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: center;
+  }
+
+
+/* flex frog answer 14 */
+#pond {
+    display: flex;
+  }
+  
+  .yellow {
+  order: 1;
+  }
+
+
+/* flex frog answer 15 */
+#pond {
+    display: flex;
+  }
+  
+  .red {
+  order: -1;
+  }
+
+
+/* flex frog answer 16 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  align-self: flex-end;
+  }
+
+
+/* flex frog answer 17 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  order: 1;
+  align-self: flex-end;
+  }
+
+
+/* flex frog answer 18 */
+#pond {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+
+/* flex frog answer 19 */
+#pond {
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  }
+
+
+/* flex frog answer 20 */
+#pond {
+    display: flex;
+  flex-flow: column wrap;
+  }
+
+
+/* flex frog answer 21 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-start;
+  }
+
+
+/* flex frog answer 22 */ 
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-end;
+  }
+
+
+/* flex frog answer 23 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  }
+
+
+/* flex frog answer 24 */
+#pond {
+    display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  }
