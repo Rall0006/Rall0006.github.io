@@ -3,6 +3,7 @@
 
 body {
     font-family: Montserrat;
+    align-content: center;
 }
 
 footer {
@@ -31,18 +32,24 @@ footer {
 
 .drivewus {
     background-color: #57eeab;
-    color: #333131;
+    color: #b2b4b8;
 }
 
-#smicons {
+.smicons {
     display: flex;
     justify-content: space-around;
 }
 
 
-.container {
-    align-content: center;
-    border: box;
+.conta {
+    align-content: inline-block;
+    border-right: #b8b8b8;
+    border-bottom: #b8b8b8;
+    border-top: white;
+    border-left: white;
+    border-radius: 10px;
+    border-width:5px;
+    border-style:solid;   
 }
 
 img {
@@ -53,4 +60,43 @@ img {
 
 .checkstatus {
     color: #ff8480;
+}
+
+/* attempt at responsive webdesign, not sure wh things aren't woriking properly */
+@media (min-width: 576px) {
+    .smicons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 768px) {
+    .smicons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+}
+
+@media (min-width:1400px) {
+    .smicons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+
+    .ig {
+        order: 1;
+    }
+    .tt {
+        order: 2;
+    }
+    .fb {
+        order: 3;
+    }
+    .li {
+        order: 4;
+    }
 }

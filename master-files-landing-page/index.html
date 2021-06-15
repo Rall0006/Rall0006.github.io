@@ -13,32 +13,38 @@
     <img src="images/logo/logo.png" class="dashlogo" alt="logo">
 </header>
 <body>
-    <h1>Want to be your own boss?</h1>
-    <p>
-        Start today and make up to $30/hr driving your own vehicle with Dash!
-    </p>
-    <img src="images/bg-image/scooter.svg" alt="scouter lady">
+    <div class="bodytext">
+        <h1>Want to be your own boss?</h1>
+        <p>
+            Start today and make up to $30/hr driving your own vehicle with Dash!
+        </p>
+    </div>
+    <div class="ladyscooter">
+        <img src="images/bg-image/scooter.svg" alt="scooterlady">
+    </div>
 <!-- simple submission form setup, I don't remember how to set up the feilds as mandatory fir the submit button -->
-    <form>
-        <h2>Apply Now</h2>
-        <p>Enter your info below</p>
-        <label for="fname"></label><br>
-        <input type="text" id="fname" name="fname" value="First name"><br>
-        <label for="lname"></label><br>
-        <input type="text" id="lname" name="lname" value="Last name"><br>
-        <label for="phonenum"></label><br>
-        <input type="tel" id="phonenum" name="phonenum" value="Phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
-        <label for="email"></label><br>
-        <input type="email" id="email" name="email" value="Email Address"><br><br>
-        <input type="checkbox" id="agree" name="agree" value="dashterms">
-<!-- a checkbox -->
-        <label for="agree"> I agree to dash terms</label><br><br>
-<!-- a submit button, not linked to anything -->
-        <button type="button" onclick="submit" class="drivewus button">DRIVE WITH US</button>
-<!-- I split this paragraph in half so I can change the colour of some text with out the use of a hyperlink -->
-        <p>Already applied?</p>
-        <p class="checkstatus">Check your application status here</p>
-    </form>
+    <div class="subform">
+        <form class="conta">
+            <h2>Apply Now</h2>
+            <p>Enter your info below</p>
+            <label for="fname"></label><br>
+            <input type="text" id="fname" name="fname" value="First name"><br>
+            <label for="lname"></label><br>
+            <input type="text" id="lname" name="lname" value="Last name"><br>
+            <label for="phonenum"></label><br>
+            <input type="tel" id="phonenum" name="phonenum" value="Phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" value="Email Address"><br><br>
+            <input type="checkbox" id="agree" name="agree" value="dashterms">
+            <!-- a checkbox -->
+            <label for="agree"> I agree to dash terms</label><br><br>
+            <!-- a submit button, not linked to anything -->
+            <button type="button" onclick="submit" class="drivewus button">DRIVE WITH US</button>
+            <!-- I split this paragraph in half so I can change the colour of some text with out the use of a hyperlink -->
+            <p>Already applied?</p>
+            <p class="checkstatus">Check your application status here</p>
+        </form>
+    </div>
 </body>
 <br>
 <footer>
@@ -52,11 +58,13 @@
         <input type="text" id="city" name="city" value="City"><br>
         <button type="button" onclick="submit" class="calcbutton button">CALCULATE</button>
     </form>
+    <br>
 <!-- social media icons -->
     <div class="smicons">
-        <img src="images/icons/facebook.svg" alt="facebook">
-        <img src="images/icons/instagram.svg" alt="instagram">
-        <img src="images/icons/twitter.svg" alt="twitter">
-        <img src="images/icons/linkedin.svg" alt="linkedin">
+        <img src="images/icons/facebook.svg" alt="facebook" class="fb">
+        <img src="images/icons/instagram.svg" alt="instagram" class="ig">
+        <img src="images/icons/twitter.svg" alt="twitter" class="tt">
+        <img src="images/icons/linkedin.svg" alt="linkedin" class="li">
     </div>
+    <br>
 </footer>
