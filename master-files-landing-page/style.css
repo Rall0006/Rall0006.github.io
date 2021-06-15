@@ -40,8 +40,9 @@ footer {
 }
 
 
-form {
+.container {
     align-content: center;
+    border: box;
 }
 
 img {
