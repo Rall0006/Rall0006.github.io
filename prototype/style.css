@@ -1,6 +1,33 @@
+/*** fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* this font replaces the sweet purple font https://www.1001fonts.com/sweet-purple-font.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* this font replaces the simp[licity font https://www.dafont.com/simplicity2.font */
+
+h1, h2, h3 {
+    font-family: Courgette;
+}
+
+p {
+    font-family: Itim;
+}
+
+
+/*** header and bg adjustments ***/
 .banner_bg {
     max-width: 1895px;
 }
+
+.icecream_bg {
+    max-width: 1600px;
+    align-self: center;
+}
+
+.logo {
+    max-width: 300px;
+}
+
 
 
 /*** css for the flipcards ***/
@@ -27,8 +54,8 @@
 
 .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -44,7 +71,12 @@
     transform: rotateY(180deg);
 } 
 
+.container {
+    display: flex;
+}
+
 .igpost {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
 }
