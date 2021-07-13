@@ -1,3 +1,5 @@
+
+/*** css for the flipcards ***/
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -21,9 +23,9 @@
 
 .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    width: 700px;
+    height: 700px;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
@@ -33,8 +35,12 @@
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #a4d4f4;
     color: white;
     transform: rotateY(180deg);
 } 
-  
+
+.igpost {
+    height: 700px;
+    width: 700px;
+}
