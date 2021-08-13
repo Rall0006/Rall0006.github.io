@@ -1,0 +1,22 @@
+/*  Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+p {
+    font-family: Martel;
+    color: rgb(125, 94, 64);
+}
+
+h1, h2, h3, h4 {
+    font-family: Merienda;
+    color: rgb(125, 94, 64);
+}
+
+/*   basic structure  */
+body {
+    background: rgb(200, 187, 173);
+}
+
+header, footer {
+    background: rgb(165, 229, 202);
+}
