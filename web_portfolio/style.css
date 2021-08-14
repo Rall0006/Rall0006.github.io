@@ -58,4 +58,14 @@ h3 {
 
 .myimage {
     width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+/*  contact form styling  */
+
+.sendbutton {
+    color: rgb(125, 94, 64);
+    background-color: rgb(165, 229, 202);
+    margin-left: 10px;
 }
