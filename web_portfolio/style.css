@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
-p {
-    color: rgb(125, 94, 64);
-}
-
 
 /*   basic structure  */
 body {
@@ -15,6 +11,17 @@ body {
 
 header, footer {
     background: rgb(165, 229, 202);
+    padding-bottom: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(165, 229, 202);
+    text-decoration: none;
 }
 
 h1 {
@@ -30,6 +37,21 @@ h2 {
 
 h3 {
     font-family: Martel;
+}
+
+p {
+    color: rgb(125, 94, 64);
+    font-size: 20px;
+}
+
+a.naviga {
+    color: rgb(125, 94, 64);
+    font-size: 50px;
+    padding: 30px;
+}
+
+a:hover.naviga {
+    color: white;
 }
 
 #title, #galleries {
@@ -68,4 +90,5 @@ h3 {
     color: rgb(125, 94, 64);
     background-color: rgb(165, 229, 202);
     margin-left: 10px;
+    font-family: Martel;
 }
