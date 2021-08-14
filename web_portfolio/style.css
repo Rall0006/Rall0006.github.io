@@ -17,7 +17,13 @@ header, footer {
     background: rgb(165, 229, 202);
 }
 
-h1, h2 {
+h1 {
+    font-family: Merienda;
+    color: white;
+    align-items: center;
+}
+
+h2 {
     font-family: Merienda;
     color: rgb(125, 94, 64);
 }
