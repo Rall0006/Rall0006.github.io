@@ -3,20 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
 p {
-    font-family: Martel;
     color: rgb(125, 94, 64);
 }
 
-h1, h2, h3, h4 {
-    font-family: Merienda;
-    color: rgb(125, 94, 64);
-}
 
 /*   basic structure  */
 body {
+    font-family: Martel;
     background: rgb(200, 187, 173);
 }
 
 header, footer {
     background: rgb(165, 229, 202);
+}
+
+h1, h2 {
+    font-family: Merienda;
+    color: rgb(125, 94, 64);
+}
+
+h3 {
+    font-family: Martel;
+}
+
+#title, #galleries {
+    background: rgb(125, 94, 64);
+    color: white;
+
+}
+
+#bigleft, #bigright, #contactkai, #aboutkai {
+    background: white;
+    color: rgb(125, 94, 64);
 }
