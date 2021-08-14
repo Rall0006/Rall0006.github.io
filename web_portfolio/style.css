@@ -60,7 +60,7 @@ a:hover.naviga {
 
 }
 
-#contactkai, #aboutkai {
+.container, #contactkai, #aboutkai {
     background: white;
     color: rgb(125, 94, 64);
 }
