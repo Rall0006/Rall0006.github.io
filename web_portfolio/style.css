@@ -49,5 +49,9 @@ h3 {
 }
 
 .smimage {
-    width: 100%;
+    width: 65%;
+}
+
+.logo {
+    width: 5%;
 }
